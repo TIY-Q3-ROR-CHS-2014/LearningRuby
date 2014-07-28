@@ -1,0 +1,44 @@
+img {
+  height: 100px;
+  width: 100px;
+}
+
+div {
+  border: 3px solid red;
+  width: 200px;
+  display: inline-block;
+  position: relative;
+}
+
+/* period means CLASS */
+div.div1 {
+  background-color: orange;
+}
+
+div.div2 {
+  background-color: yellow;
+}
+
+/* # means ID */
+div#thisisdiv1 {
+
+}
+
+div.class2 {
+  color: white;
+}
+
+span {
+  width: 200px;
+  border: 3px solid orange;
+}
+
+span.span1 {
+  background-color: black;
+}
+
+span.span2 {
+  background-color: purple;
+}
+
+/* HOw do i make a comment */
