@@ -1,0 +1,85 @@
+.harry_potter {
+
+}
+<a class="harry_potter" href="">
+<div class="harry_potter"></div>
+
+#id_selector {
+
+}
+
+/* When a link is visited */
+a.harry_potter:visited {
+  color: blue;
+}
+
+/* Puts a background image of your choice into the body */
+body {
+  background-image: url('image_name.jpg');
+}
+
+div {
+  font-size: large;
+  font-size: medium;
+  font-size: 12px;
+  /*font-size: 0.2em;*/
+  border: 1px solid red;
+  
+  /* Will 'float' an object to either side of the page - Will lose it's dimensions */
+  float: left;
+
+  /* Changes the background color of whatever you have selected */
+  /* 0-9, A-F : 6 letters/numbers */
+  background-color: #DDDEDD;
+  /* 0-255, 0-255, 0-255 : 3 numbers  */
+  background-color: rgb(123, 234, 123);
+  background-color: rgba(123, 234, 123, 234);
+
+  font-family: "Wingdings";
+
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow */
+  text-shadow: 3px 4px 5px black;
+
+  /* Aligns your text center. Just like microsoft word */
+  text-align: center;
+
+}
+
+/* Change the tag as the link is hovered */
+a:hover {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
+  text-decoration: underline;
+  text-transform: none;
+  text-transform: capitalize;
+  text-transform: lowercase;
+
+  /* Spacing INSIDE of an element */
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  /* Spacing OUTSIDE of an element */
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  /* 
+    https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent 
+    Google does NOT LIKE THIS. Should probably not use
+  */
+  text-indent: 3px;
+
+  /*
+    https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
+  */
+  border-radius: 4px 3px 6px;
+}
+
+
+
+
+
+
+
