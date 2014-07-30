@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>DIsplaying some names</title>
+</head>
+<body>
+  Some names
+  <br>
+  <% @names.each do |name| %>
+    <strong>First Name:</strong> <%= name[:first_name] %>
+    <strong>Last Name:</strong> <%= name[:last_name] %>
+    <br>
+  <% end %>
+
+  <%= @dude %>
+</body>
+</html>

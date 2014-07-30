@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>Testing some objects</title>
+</head>
+<body>
+  Some names
+  <br>
+  <% @people.each do |name| %>
+    <%= name.first_name %>
+    <%= name.last_name %>
+    <br>
+  <% end %>
+
+</body>
+</html>
