@@ -1,0 +1,10 @@
+<h1>
+  <%= @contact.first_name %>
+  <%= @contact.last_name %>
+</h1>
+  <form action="/delete_contact/<%= @contact.id %>" method="post">
+    <input type="hidden" name="_method" value="delete">
+    <input type="submit" value="Delete">
+  </form>
+
+  <a href="/">Back</a>

@@ -1,0 +1,11 @@
+<a href="/create_contact">Create Contact</a>
+<br>
+<% @contacts.each do |contact| %>
+  <a href="/show_contact/<%= contact.id %>">
+    <%= contact.first_name %>
+    <%= contact.last_name %>
+  </a>
+  <a href="/edit_contact/<%= contact.id %>" >Edit</a>
+
+  <br>
+<% end %>
